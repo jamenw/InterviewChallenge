@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "d8224883-c0a0-4fe2-9d0e-dc126d418ae1",
+		"name": "The Challenge Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Information Challenge",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/Information/Challenge",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Information",
+						"Challenge"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather Forecast GET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"WeatherForecast",
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather Forecast POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"date\": \"2022-03-10T00:09:31.436Z\",\r\n  \"temperatureC\": 55,\r\n  \"summary\": \"tons of snow!!\",\r\n  \"location\": \"syracuse, utah\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"WeatherForecast",
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather Forecast PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n        \"location\": \"Antarctica\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast/2110979437",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"WeatherForecast",
+						"WeatherForecast",
+						"2110979437"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather Forecast Location GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast/salt%20lake%20city",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"WeatherForecast",
+						"WeatherForecast",
+						"salt%20lake%20city"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather Forecast DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast/1095108594",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"WeatherForecast",
+						"WeatherForecast",
+						"1095108594"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
